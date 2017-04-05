@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/bin/at_distributor:system/bin/at_distributor \
     vendor/samsung/hero2qltechn/proprietary/bin/audiod:system/bin/audiod \
     vendor/samsung/hero2qltechn/proprietary/bin/bintvoutservice:system/bin/bintvoutservice \
-    vendor/samsung/hero2qltechn/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/samsung/hero2qltechn/proprietary/bin/connfwexe:system/bin/connfwexe \
     vendor/samsung/hero2qltechn/proprietary/bin/cs:system/bin/cs \
     vendor/samsung/hero2qltechn/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
@@ -33,7 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/samsung/hero2qltechn/proprietary/bin/factory.adsp:system/bin/factory.adsp \
     vendor/samsung/hero2qltechn/proprietary/bin/fingerprintd:system/bin/fingerprintd \
-    vendor/samsung/hero2qltechn/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/samsung/hero2qltechn/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/samsung/hero2qltechn/proprietary/bin/iop:system/bin/iop \
     vendor/samsung/hero2qltechn/proprietary/bin/ip:system/bin/ip \
@@ -63,7 +61,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/samsung/hero2qltechn/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/samsung/hero2qltechn/proprietary/bin/wlandutservice:system/bin/wlandutservice \
-    vendor/samsung/hero2qltechn/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/samsung/hero2qltechn/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/samsung/hero2qltechn/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
     vendor/samsung/hero2qltechn/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
@@ -94,8 +91,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/etc/firmware/a530v3_gpmu.fw2:system/etc/firmware/a530v3_gpmu.fw2 \
     vendor/samsung/hero2qltechn/proprietary/etc/firmware/a530v3_seq.fw2:system/etc/firmware/a530v3_seq.fw2 \
     vendor/samsung/hero2qltechn/proprietary/etc/firmware/a540_gpmu.fw2:system/etc/firmware/a540_gpmu.fw2 \
-    vendor/samsung/hero2qltechn/proprietary/etc/firmware/btfw32.tlv:system/etc/firmware/btfw32.tlv \
-    vendor/samsung/hero2qltechn/proprietary/etc/firmware/btnv32.bin:system/etc/firmware/btnv32.bin \
     vendor/samsung/hero2qltechn/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
     vendor/samsung/hero2qltechn/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/samsung/hero2qltechn/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
@@ -109,18 +104,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/etc/firmware/dbmd4_va_fw.bin:system/etc/firmware/dbmd4_va_fw.bin \
     vendor/samsung/hero2qltechn/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/samsung/hero2qltechn/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    vendor/samsung/hero2qltechn/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
-    vendor/samsung/hero2qltechn/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
-    vendor/samsung/hero2qltechn/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
-    vendor/samsung/hero2qltechn/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
-    vendor/samsung/hero2qltechn/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
     vendor/samsung/hero2qltechn/proprietary/etc/firmware/ois_fw_dom.bin:system/etc/firmware/ois_fw_dom.bin \
     vendor/samsung/hero2qltechn/proprietary/etc/firmware/ois_fw_sec.bin:system/etc/firmware/ois_fw_sec.bin \
-    vendor/samsung/hero2qltechn/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
-    vendor/samsung/hero2qltechn/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
-    vendor/samsung/hero2qltechn/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
-    vendor/samsung/hero2qltechn/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
-    vendor/samsung/hero2qltechn/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/samsung/hero2qltechn/proprietary/etc/firmware/s5k2p2xx_chromatix.xml:system/etc/firmware/s5k2p2xx_chromatix.xml \
     vendor/samsung/hero2qltechn/proprietary/etc/firmware/s5k4e6xx_cc_chromatix.xml:system/etc/firmware/s5k4e6xx_cc_chromatix.xml \
     vendor/samsung/hero2qltechn/proprietary/etc/firmware/s5k4e6xx_chromatix.xml:system/etc/firmware/s5k4e6xx_chromatix.xml \
@@ -246,7 +231,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/samsung/hero2qltechn/proprietary/vendor/firmware/bcm4359C0_V0076.0132_semco.hcd:system/vendor/firmware/bcm4359C0_V0076.0132_semco.hcd \
     vendor/samsung/hero2qltechn/proprietary/vendor/firmware/bcm4359C0_V0076.0133_murata.hcd:system/vendor/firmware/bcm4359C0_V0076.0133_murata.hcd \
-    vendor/samsung/hero2qltechn/proprietary/vendor/firmware/libpn551_fw.so:system/vendor/firmware/libpn551_fw.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -597,7 +581,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
-    vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libc2d30-a5xx.so:system/vendor/lib64/libc2d30-a5xx.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libc2d30_bltlib.so:system/vendor/lib64/libc2d30_bltlib.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
