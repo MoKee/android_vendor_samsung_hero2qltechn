@@ -665,7 +665,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
-    vendor/samsung/hero2qltechn/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
+    vendor/samsung/hero2qltechn/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
+		vendor/samsung/hero2qltechn/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
+		vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libbt-vendor.so:system/vendor/lib64/libbt-vendor.so
 
 PRODUCT_PACKAGES += \
     libsdm-disp-apis \
