@@ -161,7 +161,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/lib/libion.so:system/lib/libion.so \
     vendor/samsung/hero2qltechn/proprietary/lib/libjpeg.so:system/lib/libjpeg.so \
     vendor/samsung/hero2qltechn/proprietary/lib/libjpegQtable_interface.so:system/lib/libjpegQtable_interface.so \
-    vendor/samsung/hero2qltechn/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+		vendor/samsung/hero2qltechn/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+		vendor/samsung/hero2qltechn/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/samsung/hero2qltechn/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/samsung/hero2qltechn/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/samsung/hero2qltechn/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
@@ -188,6 +189,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/samsung/hero2qltechn/proprietary/lib/libxml2.so:system/lib/libxml2.so \
     vendor/samsung/hero2qltechn/proprietary/lib/sensors.bio.so:system/lib/sensors.bio.so \
+		vendor/samsung/hero2qltechn/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/samsung/hero2qltechn/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/samsung/hero2qltechn/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/samsung/hero2qltechn/proprietary/lib64/hw/keystore.default.so:system/lib64/hw/keystore.default.so \
