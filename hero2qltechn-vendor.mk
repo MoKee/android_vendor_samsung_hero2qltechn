@@ -157,7 +157,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/lib/libatomjpeg.so:system/lib/libatomjpeg.so \
     vendor/samsung/hero2qltechn/proprietary/lib/libatomjpeg_panorama_enc.so:system/lib/libatomjpeg_panorama_enc.so \
     vendor/samsung/hero2qltechn/proprietary/lib/libdmcFaceEngine.so:system/lib/libdmcFaceEngine.so \
-    vendor/samsung/hero2qltechn/proprietary/lib/libgnsspps.so:system/lib/libgnsspps.so \
+		vendor/samsung/hero2qltechn/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
+		vendor/samsung/hero2qltechn/proprietary/lib/libgnsspps.so:system/lib/libgnsspps.so \
     vendor/samsung/hero2qltechn/proprietary/lib/libion.so:system/lib/libion.so \
     vendor/samsung/hero2qltechn/proprietary/lib/libjpeg.so:system/lib/libjpeg.so \
     vendor/samsung/hero2qltechn/proprietary/lib/libjpegQtable_interface.so:system/lib/libjpegQtable_interface.so \
@@ -199,6 +200,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/lib64/libbauthserver.so:system/lib64/libbauthserver.so \
     vendor/samsung/hero2qltechn/proprietary/lib64/libbauthtzcommon.so:system/lib64/libbauthtzcommon.so \
     vendor/samsung/hero2qltechn/proprietary/lib64/libegis_fp_normal_sensor_test.so:system/lib64/libegis_fp_normal_sensor_test.so \
+		vendor/samsung/hero2qltechn/proprietary/lib64/libfloatingfeature.so:system/lib64/libfloatingfeature.so \
     vendor/samsung/hero2qltechn/proprietary/lib64/libgnsspps.so:system/lib64/libgnsspps.so \
     vendor/samsung/hero2qltechn/proprietary/lib64/libhr.so:system/lib64/libhr.so \
     vendor/samsung/hero2qltechn/proprietary/lib64/libion.so:system/lib64/libion.so \
@@ -526,6 +528,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/mmi_gps.so:system/vendor/lib/mmi_gps.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/mmi_sensor.so:system/vendor/lib/mmi_sensor.so \
+		vendor/samsung/hero2qltechn/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
@@ -660,7 +663,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
-    vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libvpphvx.so:system/vendor/lib64/libvpphvx.so \
+		vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libvpphvx.so:system/vendor/lib64/libvpphvx.so \
+		vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/mmi_gps.so:system/vendor/lib64/mmi_gps.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/mmi_sensor.so:system/vendor/lib64/mmi_sensor.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
