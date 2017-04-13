@@ -60,7 +60,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/bin/smdexe:system/bin/smdexe \
     vendor/samsung/hero2qltechn/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/samsung/hero2qltechn/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/samsung/hero2qltechn/proprietary/bin/wlandutservice:system/bin/wlandutservice \
+		vendor/samsung/hero2qltechn/proprietary/bin/wlandutservice:system/bin/wlandutservice \
+		vendor/samsung/hero2qltechn/proprietary/bin/wifiloader:system/bin/wifiloader \
     vendor/samsung/hero2qltechn/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/samsung/hero2qltechn/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
     vendor/samsung/hero2qltechn/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
